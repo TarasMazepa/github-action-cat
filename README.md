@@ -19,12 +19,12 @@ Create a workflow `.yml` file in your repositories `.github/workflows` directory
 ### Example workflow
 
 ```yaml
-name: Example
+name: example.yml
 
 on: push
 
 jobs:
-  echo:
+  example:
     runs-on: ubuntu-latest
     
     steps:
